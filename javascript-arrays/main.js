@@ -22,8 +22,6 @@ console.log(str2);
 console.log('Vatue of numberOfStudents ==>', numberOfStudents);
 
 const lastIndex = numberOfStudents - 1;
-// console.log(lastIndex);
-
 const lastStudent = students[lastIndex];
 
 console.log('Value of lastStudent ==>', lastStudent);
