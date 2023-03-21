@@ -16,7 +16,7 @@ console.log('Value of array colors ==>', colors);
 
 const students = ['Joe', 'Donald', 'Barak', 'George'];
 const numberOfStudents = students.length;
-const str2 = ' There are 4 students in the class.' + ' \n The last student in the array is ' + students[3];
+const str2 = ' There are ' + numberOfStudents + ' students in the class.' + ' \n The last student in the array is ' + students[3];
 
 console.log(str2);
 console.log('Vatue of numberOfStudents ==>', numberOfStudents);
