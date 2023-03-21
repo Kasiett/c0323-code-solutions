@@ -21,10 +21,10 @@ const vehicle = {
 };
 
 vehicle['color'] = 'Space teal';
-vehicle['isReliable'] = true;
+vehicle['isConvertible'] = false;
 
 console.log('Value of color property ==>', vehicle['color']);
-console.log('Value of isReliable property ==>', vehicle['isReliable']);
+console.log('Value of isConvertible property ==>', vehicle['isConvertible']);
 console.log('Value of vehicle object ==>', vehicle);
 
 const pet = {
