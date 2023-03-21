@@ -22,7 +22,7 @@ console.log('typeof grade ==> ', typeof grade);
 
 const firstName = 'Kasiet';
 const lastname = 'Rakhimdinova';
-let fullName = firstName + ' ' + lastname;
+const fullName = firstName + ' ' + lastname;
 
 console.log('Variable fullName==>', fullName);
 console.log('typeof fullName ==>', typeof fullName);
@@ -40,7 +40,7 @@ console.log('variable isSparta ===>', isSparta);
 console.log('typeof isSparta ==>', typeof isSparta);
 
 let motto = fullName;
-fullName = motto;
+
 motto += ' is the GOAT';
 
 console.log('Variable motto', motto);
