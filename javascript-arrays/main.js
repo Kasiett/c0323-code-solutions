@@ -16,7 +16,7 @@ console.log('Value of array colors ==>', colors);
 
 const students = ['Joe', 'Donald', 'Barak', 'George'];
 const numberOfStudents = students.length;
-const str2 = ' There are ' + numberOfStudents + ' students in the class.' + ' \n The last student in the array is ' + students[3];
+const str2 = ' There are ' + numberOfStudents + ' students in the class.';
 
 console.log(str2);
 console.log('Vatue of numberOfStudents ==>', numberOfStudents);
@@ -24,5 +24,6 @@ console.log('Vatue of numberOfStudents ==>', numberOfStudents);
 const lastIndex = numberOfStudents - 1;
 const lastStudent = students[lastIndex];
 
+console.log('Value of the LastStudent ==>', ' The last student in the array is ' + students[3]);
 console.log('Value of lastStudent ==>', lastStudent);
 console.log('Value of students ==> ', students);
