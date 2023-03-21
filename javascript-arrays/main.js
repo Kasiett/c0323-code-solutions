@@ -24,6 +24,6 @@ console.log('Vatue of numberOfStudents ==>', numberOfStudents);
 const lastIndex = numberOfStudents - 1;
 const lastStudent = students[lastIndex];
 
-console.log('Value of the LastStudent ==>', ' The last student in the array is ' + students[3]);
+console.log('Value of the LastStudent ==>', ' The last student in the array is ' + students[lastIndex]);
 console.log('Value of lastStudent ==>', lastStudent);
 console.log('Value of students ==> ', students);
