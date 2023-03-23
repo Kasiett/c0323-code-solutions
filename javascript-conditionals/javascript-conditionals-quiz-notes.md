@@ -9,7 +9,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 '> ','<', '===', '!==', '<=', '>='
 
 - What data type do comparison expressions evaluate to?
-Numbers, Boolean, String
+ Boolean,
 
 - What is the purpose of an `if` statement?
 if statement evaluates or cheks the condition. If the condition evaluates to true any statement in a subsequent block are executed.
