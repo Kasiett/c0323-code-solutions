@@ -5,6 +5,4 @@ function isLowerCased(word) {
   } else {
     return false;
   }
-  // eslint-disable-next-line no-unreachable
-  return word;
 }

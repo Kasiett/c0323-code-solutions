@@ -6,4 +6,3 @@ function reverseWord(word) {
   }
   return str;
 }
-console.log(reverseWord('LearningFuze'));
