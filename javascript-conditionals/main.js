@@ -28,8 +28,7 @@ function isEven(number) {
 console.log('isEven Output ==> ', isEven(10));
 
 function startsWithJ(string) {
-  const str = string.toUpperCase();
-  if (str[0] === 'J') {
+  if (string[0] === 'J') {
     return true;
   } else {
     return false;
