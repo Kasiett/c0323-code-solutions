@@ -1,4 +1,4 @@
-/* eslint-disable prefer-const */
+
 /* exported getNumbersToTen,
             getEvenNumbersToTwenty,
             repeatWord,
@@ -35,7 +35,7 @@ console.log('getEvenNumbersToTwenty()', getEvenNumbersToTwenty());
 function repeatWord(word, times) {
   let count = 1;
   let repeated = '';
-  while (count < times) {
+  while (count <= times) {
     repeated += word;
     count++;
   }
@@ -68,8 +68,8 @@ const obj = {
 };
 
 function getKeys(object) {
-  let keys = [];
-  for (let key in object) {
+  const keys = [];
+  for (const key in object) {
     keys.push(key);
   }
   return keys;
@@ -77,8 +77,8 @@ function getKeys(object) {
 console.log('getKeys(obj) ', getKeys(obj));
 
 function getValues(object) {
-  let values = [];
-  for (let key in object) {
+  const values = [];
+  for (const key in object) {
     values.push(object[key]);
   }
   return values;
