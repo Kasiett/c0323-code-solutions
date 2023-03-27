@@ -6,8 +6,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What HTML tag is used to link to another website?
 <a> anchor tag which takes an attribute of href='url' which can have a value of a webpage , or class or file .
-- What is an absolute URL?
 
+- What is an absolute URL?
+links to external website
 - What is a relative URL?
 relative url is when url is located in the same file, when linking to a page within a same site
 
