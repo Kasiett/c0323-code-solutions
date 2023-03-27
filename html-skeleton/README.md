@@ -11,13 +11,10 @@ Be sure to check out a new branch from `main` for this exercise. Detailed instru
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Where do you put non-visible content about the HTML document?
-head
 - Where do you put visible content about the HTML document?
-body
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
-inside html tag
 - What is the purpose of a `<!DOCTYPE>` declaration?
-to specify to a browser what type of document is going to be rendered. It is came with HTML5
+
 
 ## Exercise
 
