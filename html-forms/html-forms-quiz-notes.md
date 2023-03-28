@@ -12,7 +12,7 @@ text input, radio buttons, checkbox, dropdown - select, option, submit button
 The type attribute is used to specify the type of data that can be entered into an HTML
 type="text",type="checkbox",type="number"
 - Is an HTML `<input>` element a block element or an inline element?
-By default it is inline element , but type="checkbox", type="radio", and type="range", may have block-like or inline-block display behaviors.
+By default it is inline element , but type="checkbox", type="radio", and type="range", may have blocklike or inline-block display behaviors.
 ## Notes
 
 All student notes should be written here.
