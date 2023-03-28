@@ -5,9 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the six primary HTML elements for creating tables?
-table,tr,td,th,thead,tbody
+table,tr,td,th,thead,tbody,tfoot
 - What purpose do the `thead` and `tbody` elements serve?
-accesibility for screen readers, search engine efficient
+accesibility for screen readers, search engine efficient, they help with longer tables, and help distinguish head and body  data of table
 - Give two examples of data that would lend itself well to being displayed in a table.
 sports score ,  stocks , students grades
 ## Notes
