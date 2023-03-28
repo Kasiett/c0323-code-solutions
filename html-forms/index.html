@@ -10,30 +10,29 @@
   <h1>Coding Form!</h1>
   <form action="#">
     <label for="email">Email <br />
-      <input type="text" name="email" id="email" />
+      <input type="text" name="email" id="email" /> <br/>
     </label>
-    <div>Why is coding cool?</div>
-    <select name="answer">
+    <label for="select">Why is coding cool?</label> <br />
+    <select id="select" name="answer">
       <option value="option">Select an option</option>
       <option value="interesting">Because it's interesting</option>
       <option value="fun">Because it's fun</option>
       <option value="powerful">Because it's powerful</option>
     </select>
 
-    <p>Favorite language (choose one)</p>
+    <p>Favorite language (choose one)</p> <br/>
     <input id="html" type="radio" name="prog-language" value="html">
     <label for="html">HTML</label>
     <input id="css" type="radio" name="prog-language" value="css">
     <label for="css">CSS</label>
     <input id="javascript" type="radio" name="prog-language" value="javascript">
-    <label for="javascript">JavaScript</label>
-    <p>Would you like to sign up for more information?</p>
-
-    <input type="checkbox" value="sign-me-up!"> <span>Sign me up!</span>
-    <div>Coments</div>
-    <textarea name="comments" cols="30" rows="10">Enter your comments...</textarea>
+    <label for="javascript">JavaScript</label> <br/> <br/>
+    <label for="checkbox">Would you like to sign up for more information?</label> <br/>
+    <input id="checkbox" type="checkbox" value="sign-me-up!"> <span>Sign me up!</span> <br/>
+    <label for="textarea">Coments</label ><br/>
+    <textarea id="textarea" name="comments" cols="30" rows="10">Enter your comments...</textarea>
     <br/>
-    <input type="submit" name="submit" value="Submit" />
+    <label><input type="submit" name="submit" value="Submit" /></label>
 
 
 
