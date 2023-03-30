@@ -1,0 +1,16 @@
+body {
+  font-family: Righteous, cursive;
+}
+
+div.container {
+  width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+
+  .one-third {
+    flex-basis: calc(100%/3);
+  }
+}
