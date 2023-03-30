@@ -3,14 +3,26 @@ body {
 }
 
 div.container {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 }
 
 .row {
   display: flex;
+}
 
-  .one-third {
-    flex-basis: calc(100%/3);
-  }
+img {
+  width: 100%;
+}
+
+.one-fourth {
+  flex-basis: calc(100%/4);
+}
+
+.one-third {
+  flex-basis: calc(100%/3);
+}
+
+.two-thirds {
+  flex-basis: 66%;
 }
