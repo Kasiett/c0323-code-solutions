@@ -4,7 +4,7 @@ body {
 
 div.container {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .row {
@@ -24,5 +24,5 @@ img {
 }
 
 .two-thirds {
-  flex-basis: 66%;
+  flex-basis: calc(200%/3);
 }
