@@ -26,8 +26,13 @@ h3 {
 
 .text-content {
   margin: 20px;
+  width: 400px;
 }
 
 .center {
   justify-content: center;
+}
+
+img {
+  width: 150px;
 }
