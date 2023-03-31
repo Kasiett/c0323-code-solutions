@@ -1,0 +1,15 @@
+html {
+  font-size: 22px;
+}
+
+.page-title {
+  font-size: 3rem;
+  text-align: center;
+
+  /* your code here */
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -250px;
+}
