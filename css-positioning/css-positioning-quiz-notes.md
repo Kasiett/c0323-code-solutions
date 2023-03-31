@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the **default** value for the `position` property of HTML elements?
-The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value.
+The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value. (static)
 
 - How does setting `position: relative` on an element affect document flow?
 this does not affect the position of surrounding elements.
