@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: #1996da;
+  color: white;
+  margin: 0 auto;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+div > img {
+  width: 55%;
+}
+
+.background-color {
+  background-color: white;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.one-thirds {
+  text-align: center;
+  flex-basis: calc(100%/3);
+  padding: 10px;
+}
+
+.no-line-height {
+  line-height: 0;
+}
