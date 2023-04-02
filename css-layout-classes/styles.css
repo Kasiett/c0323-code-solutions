@@ -1,0 +1,28 @@
+body {
+  font-family: Righteous, cursive;
+}
+
+div.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.one-fourth {
+  flex-basis: calc(100%/4);
+}
+
+.one-third {
+  flex-basis: calc(100%/3);
+}
+
+.two-thirds {
+  flex-basis: calc(200%/3);
+}
