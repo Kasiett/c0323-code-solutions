@@ -15,7 +15,7 @@ the model (DOM tree) made of objects
 - What is a DOM Tree?
 It is a model of web page in the browser and stored in a browsers memory.
 - Give two examples of `document` methods that retrieve a single element from the DOM.
-getElementByID(); querySelector('css selector)
+getElementByID(); querySelector('css selector')
 - Give one example of a `document` method that retrieves multiple elements from the DOM at once.
 getElementByTagName(); querySelectorAll()
 - Why might you want to assign the return value of a DOM query to a variable?
@@ -25,9 +25,9 @@ console.dir()
 - Why would a `<script>` tag need to be placed at the bottom of the HTML content instead of at the top?
 Because Javascript takes more time to be rendered, and placing script tag at the bottom of HTML page gives and info to a DOM tree how the page should look at the end.
 - What does `document.querySelector()` take as its argument and what does it return?
-css selectors and returns first matching element
+ string form of css selectors and returns first matching element
 - What does `document.querySelectorAll()` take as its argument and what does it return?
-css selectors and returns all matching elements
+ string form of css selectors and returns all matching elements
 
 ## Notes
 
