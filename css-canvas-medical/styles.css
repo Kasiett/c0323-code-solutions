@@ -26,8 +26,7 @@ ul.nav > li {
   font-family: Avenir, sans-serif;
 }
 
-section > button,
-div.button > button {
+section > button {
   padding: 10px 35px;
   background-color: #2a4364;
   color: white;
@@ -44,17 +43,31 @@ ul > li > button {
   border: transparent;
 }
 
+div.button > button {
+  padding: 10px 35px;
+  background-color: #2a4364;
+  color: white;
+  border-radius: 3px;
+  border: transparent;
+  margin-top: 10px;
+}
+
+section > button:hover {
+  background-color: #052a5a;
+  cursor: pointer;
+}
+
 ul > li > button:hover {
   background-color: #052a5a;
   cursor: pointer;
 }
 
 .section {
-  margin: 90px 160px;
+  margin: 90px 200px;
   background-image: url("images/hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 85vh;
+  height: 80vh;
   color: white;
 }
 
@@ -65,7 +78,7 @@ section {
 
 h1 {
   margin-bottom: 20px;
-  font-size: 33px;
+  font-size: 35px;
   font-family: "Playfair Display", serif;
   font-weight: 400px;
   letter-spacing: 1px;
@@ -73,12 +86,7 @@ h1 {
 
 section > p {
   font-family: Avenir, sans-serif;
-  line-height: 1.5em;
-}
-
-section > button:hover {
-  background-color: #052a5a;
-  cursor: pointer;
+  line-height: 2em;
 }
 
 main {
@@ -171,9 +179,15 @@ footer {
   display: flex;
 }
 
+div.footer > p > a {
+  color: rgb(126 126 126);
+  margin: 125px;
+  list-style: none;
+  text-decoration: none;
+}
+
 .ul-footer,
-ul.ul-footer > li > a,
-p > a {
+ul.ul-footer > li > a {
   list-style: none;
   text-decoration: none;
   color: white;
@@ -214,9 +228,4 @@ ul.ul-footer > li {
 div.footer > p {
   background-color: #fafafa;
   margin-top: 0;
-}
-
-p > a {
-  color: rgb(126 126 126);
-  margin: 30px;
 }
