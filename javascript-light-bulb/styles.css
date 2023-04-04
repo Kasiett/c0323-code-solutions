@@ -1,0 +1,33 @@
+.bulb {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #faea84;
+  box-shadow: -2px 3px 47px 25px rgb(250 234 132 / 100%);
+}
+
+.bulb-off {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #252525;
+  box-shadow: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.container-off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
