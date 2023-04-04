@@ -1,0 +1,30 @@
+body {
+  font-family: Barlow, sans-serif;
+}
+
+.container {
+  background-color: #f7f8fb;
+  margin: 50px 150px;
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.icon > img {
+  width: 100px;
+}
+
+div.img-wrapper > img {
+  width: 250px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+header > h1,
+div.icon-text > h3 {
+  font-weight: bolder;
+}
