@@ -22,11 +22,13 @@ h3 {
 .row {
   display: flex;
   margin: 40px;
+  justify-content: center;
 }
 
 .text-content {
   margin: 20px;
   width: 400px;
+  text-align: start;
 }
 
 .center {
@@ -35,4 +37,8 @@ h3 {
 
 img {
   width: 150px;
+}
+
+section {
+  text-align: center;
 }
