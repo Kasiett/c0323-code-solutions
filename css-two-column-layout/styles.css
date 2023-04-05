@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h3,
+button {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+button {
+  padding: 10px 35px;
+  color: rgb(243 57 57);
+  border: 1px solid rgb(243 57 57);
+}
+
+h3 {
+  font-size: small;
+}
+
+.row {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+.text-content {
+  margin: 20px;
+  width: 400px;
+  text-align: start;
+}
+
+.center {
+  justify-content: center;
+}
+
+img {
+  width: 150px;
+}
+
+section {
+  text-align: center;
+}
