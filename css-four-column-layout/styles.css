@@ -9,22 +9,20 @@ body {
   text-align: center;
 }
 
-.icon > img {
-  width: 100px;
-}
-
-div.img-wrapper > img {
+.screen {
   width: 250px;
 }
 
-main {
+.icon {
+  width: 70px;
+}
+
+.row {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row;
 }
 
-header > h1,
-div.icon-text > h3 {
-  font-weight: bolder;
+.col {
+  flex-basis: calc(100%/4);
 }
