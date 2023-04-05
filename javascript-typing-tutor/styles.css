@@ -1,0 +1,24 @@
+body {
+  font-family: Cousine, monospace;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.current-char {
+  color: rgb(179 245 81);
+}
+
+.underline {
+  border-bottom: 4px solid;
+}
+
+.wrong-char {
+  text-decoration: underline;
+  color: rgb(240 56 56);
+}
