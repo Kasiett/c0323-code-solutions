@@ -33,4 +33,5 @@ button {
 
 button:focus {
   outline: none;
+  transform: translateY(0.25rem);
 }
