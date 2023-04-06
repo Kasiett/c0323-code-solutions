@@ -18,7 +18,7 @@ tabContainer.addEventListener('click', function (e) {
       if (allView[i].getAttribute('data-view') === dataView) {
         allView[i].className = 'view';
       } else {
-        allView[i].className = 'hidden';
+        allView[i].className = 'view hidden';
       }
     }
   }
