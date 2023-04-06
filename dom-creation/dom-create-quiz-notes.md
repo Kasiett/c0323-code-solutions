@@ -11,7 +11,7 @@ To add an element as a child to another element, you can use the appendChild() m
 - What do you pass as the arguments to the `element.setAttribute()` method?
 2 arguments first is stringified 'attribute' second is 'value'
 - What steps do you need to take in order to insert a new element into the page?
-1- createElement() 2-add textContent if neede or can be skiped same as step => 3- setAttribute 4- appendChild
+1- createElement() 2-add textContent if needed or can be skiped same as step => 3- setAttribute 4- appendChild
 - What is the `textContent` property of an element object for?
 to add textContent
 - Name two ways to set the `class` attribute of a DOM element.
