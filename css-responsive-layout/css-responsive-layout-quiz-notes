@@ -1,0 +1,45 @@
+# css-responsive-layout-quiz-notes
+
+## Quiz Questions
+
+After completing this exercise, you should be able to discuss or answer the following questions:
+
+- What is a **breakpoint** in responsive Web design?
+A breakpoint in responsive web design refers to a specific screen size or range of screen sizes at which the layout of a website changes to accommodate different devices and screen resolutions.
+In CSS, breakpoints are defined using media queries, which allow developers to apply specific styles to elements on a page based on the width of the device's viewport. For example, a breakpoint might be defined at 768 pixels, indicating that the styles within that media query should be applied to devices with a viewport width of 768 pixels or less.
+- What is the advantage of using a percentage (_e.g._ `50%`) `width` instead of a fixed (_e.g._ `px`) `width` for a "column" class in a responsive layout?
+Using a percentage width instead of a fixed width for a "column" class in a responsive layout provides the advantage of allowing the column to adjust and scale with the size of the viewport, making the layout more adaptable and accommodating to different screen sizes and devices.
+Using percentage-based widths in a responsive layout is a fundamental aspect of responsive web design, as it allows the design to be more adaptable and responsive to different devices and screen sizes. This approach helps to provide a better user experience and can improve overall usability and accessibility.
+- If you introduce CSS rules for a smaller `min-width` _after_ the styles for a larger `min-width` in your style sheet, the CSS rules for the **smaller** `min-width` will "win". Why is that?
+
+When you introduce CSS rules for a smaller min-width after the styles for a larger min-width in your style sheet, the CSS rules for the smaller min-width will "win" because of the way that the cascade and specificity of CSS work.
+When you define styles for a larger min-width first and then introduce styles for a smaller min-width later, the styles for the larger min-width will apply to the element initially. However, as the viewport size decreases and the smaller min-width becomes active, the styles for the smaller min-width will have a higher specificity or a higher priority, and thus, they will override the styles for the larger min-width.
+
+## Notes
+
+All student notes should be written here.
+
+
+How to write `Code Examples` in markdown
+
+for JS:
+
+```javascript
+const data = "Howdy";
+```
+
+for HTML:
+
+```html
+<div>
+  <p>This is text content</p>
+</div>
+```
+
+for CSS:
+
+```css
+div {
+  width: 100%;
+}
+```
