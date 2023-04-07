@@ -33,6 +33,9 @@ button {
 
 button:focus {
   outline: none;
+}
+
+button:active {
   transform: translateY(0.25rem);
 }
 
