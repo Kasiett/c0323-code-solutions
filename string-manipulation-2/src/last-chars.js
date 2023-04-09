@@ -11,5 +11,3 @@ function lastChars(length, string) {
   }
   return newStr;
 }
-
-console.log(lastChars(1, 'LearningFuze'));
