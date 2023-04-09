@@ -28,12 +28,16 @@ ul.nav > li {
 
 section > button {
   padding: 15px 40px;
-  background-color: #2a4364;
+  background-color: #1e385c;
   color: white;
   border-radius: 3px;
   border: transparent;
   margin-top: 10px;
   font-size: 17px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 85px;
 }
 
 ul > li > button {
@@ -71,21 +75,22 @@ ul > li > button:hover {
   background-size: cover;
   height: 80vh;
   color: white;
+  position: relative;
 }
 
 section {
-  position: relative;
-  width: 50%;
   padding: 50px 10px 50px 80px;
+  width: 50%;
 }
 
 .overlay {
-  background: linear-gradient(transparent, black);
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
+  z-index: 0;
 }
 
 h1 {
@@ -94,11 +99,18 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 400px;
   letter-spacing: 1px;
+  position: absolute;
+  width: 50%;
+  z-index: 1;
 }
 
 section > p {
+  position: absolute;
+  width: 50%;
+  top: 180px;
   font-family: Avenir, sans-serif;
   line-height: 1.7em;
+  z-index: 1;
 }
 
 main {
