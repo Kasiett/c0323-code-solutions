@@ -27,12 +27,13 @@ ul.nav > li {
 }
 
 section > button {
-  padding: 10px 35px;
+  padding: 15px 40px;
   background-color: #2a4364;
   color: white;
   border-radius: 3px;
   border: transparent;
   margin-top: 10px;
+  font-size: 17px;
 }
 
 ul > li > button {
@@ -44,7 +45,8 @@ ul > li > button {
 }
 
 div.button > button {
-  padding: 10px 35px;
+  padding: 15px 40px;
+  font-size: 17px;
   background-color: #2a4364;
   color: white;
   border-radius: 3px;
@@ -63,7 +65,7 @@ ul > li > button:hover {
 }
 
 .section {
-  margin: 90px 200px;
+  margin: 90px 150px;
   background-image: url("images/hero.jpg");
   background-position: center;
   background-size: cover;
@@ -72,8 +74,18 @@ ul > li > button:hover {
 }
 
 section {
+  position: relative;
   width: 50%;
-  padding: 80px;
+  padding: 50px 10px 50px 80px;
+}
+
+.overlay {
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 h1 {
@@ -86,7 +98,7 @@ h1 {
 
 section > p {
   font-family: Avenir, sans-serif;
-  line-height: 2em;
+  line-height: 1.7em;
 }
 
 main {
@@ -179,9 +191,9 @@ footer {
   display: flex;
 }
 
-div.footer > p > a {
+div.footer > span > a {
   color: rgb(126 126 126);
-  margin: 125px;
+  margin: 70px 0 100px 125px;
   list-style: none;
   text-decoration: none;
 }
@@ -220,12 +232,12 @@ ul.ul-footer > li {
 
 .footer {
   display: flex;
-  margin: 0 100px;
-  padding: 40px 160px 30px;
+  margin: 0 10px 0 100px;
+  padding: 40px 45px 30px;
 }
 
 .footer,
-div.footer > p {
+div.footer > span {
   background-color: #fafafa;
   margin-top: 0;
 }
