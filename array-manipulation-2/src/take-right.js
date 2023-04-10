@@ -1,5 +1,5 @@
 /* exported takeRight */
 function takeRight(array, count) {
-  array.pop(count);
-
+  const result = array.slice(count);
+  return result;
 }
