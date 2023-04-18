@@ -17,8 +17,8 @@ div.row > h1 {
 }
 
 img {
-  height: 330px;
-  width: 210px;
+  width: 100%;
+  height: 400px;
 }
 
 .left-text {
