@@ -22,9 +22,15 @@ associated with the function
 Object-Oriented Programming?
 
 - What are the four "principles" of Object-Oriented Programming?
+Encapsulation: Encapsulation is the process of hiding the internal details and state of an object, and exposing only what is necessary. This is achieved through the use of classes and objects, where classes define the structure and behavior of objects, and objects are instances of classes. Encapsulation helps in achieving data abstraction, information hiding, and modularization.
 
+Inheritance: Inheritance is the process by which one class inherits properties and methods from another class. The class that inherits properties and methods is called a subclass or derived class, and the class from which properties and methods are inherited is called a superclass or base class. Inheritance allows for the creation of a hierarchical relationship between classes, where subclasses can inherit and extend the functionality of their superclass.
+
+Polymorphism: Polymorphism allows objects of different classes to be treated as if they were of the same class. Polymorphism enables the use of a common interface or method across multiple classes, providing flexibility and extensibility in object-oriented designs. Polymorphism allows for code reusability and promotes loose coupling between objects, making it easier to change and extend the behavior of objects without affecting the code that uses them.
+
+Abstraction: Abstraction is the process of simplifying complex systems by breaking them down into smaller, manageable parts. In OOP, abstraction is achieved through the use of abstract classes and interfaces. Abstract classes define common characteristics and behavior for a group of related classes, but cannot be instantiated themselves. Interfaces define a common set of methods that classes can implement, providing a contract for how objects should behave without specifying their internal details. Abstraction allows for the creation of high-level, generalized models that can be extended and implemented by concrete classes to achieve specific functionality.
 - What is "abstraction"?
-
+Abstraction is the process of simplifying complex systems by breaking them down into smaller, manageable parts. In OOP, abstraction is achieved through the use of abstract classes and interfaces. Abstract classes define common characteristics and behavior for a group of related classes, but cannot be instantiated themselves. Interfaces define a common set of methods that classes can implement, providing a contract for how objects should behave without specifying their internal details. Abstraction allows for the creation of high-level, generalized models that can be extended and implemented by concrete classes to achieve specific functionality.
 - What does API stand for?
  Application Programming Interface.
 - What is the purpose of an API?

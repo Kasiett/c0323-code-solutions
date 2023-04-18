@@ -1,26 +1,26 @@
 /* exported calculator */
 const calculator = {
-  add: function add(x, y) {
+  add: function (x, y) {
     const result = x + y;
     return result;
   },
-  subtract: function subtract(x, y) {
+  subtract: function (x, y) {
     const result = x - y;
     return result;
   },
-  multiply: function multiply(x, y) {
+  multiply: function (x, y) {
     const result = x * y;
     return result;
   },
-  divide: function divide(x, y) {
+  divide: function (x, y) {
     const result = x / y;
     return result;
   },
-  square: function square(x) {
+  square: function (x) {
     const result = x * x;
     return result;
   },
-  sumAll: function sumAll(numbers) {
+  sumAll: function (numbers) {
     const num = 0;
     let result = 0;
     for (let i = 0; i < numbers.length; i++) {
@@ -28,7 +28,7 @@ const calculator = {
     }
     return result;
   },
-  getAverage: function getAverage(numbers) {
+  getAverage: function (numbers) {
     const num = 0;
     let total = 0;
     for (let i = 0; i < numbers.length; i++) {
