@@ -15,7 +15,7 @@ using the extends keyword, which allows you to create a subclass (also known as 
 - Why would you want to inherit from another class?
  inheritance is a powerful mechanism in OOP that promotes code reusability, modularity, and organization, and allows for flexible and extensible object modeling.
 - How do you add methods and properties to a class?
-Properties
+Properties inside the constructor
 ## Notes
 
 All student notes should be written here.
