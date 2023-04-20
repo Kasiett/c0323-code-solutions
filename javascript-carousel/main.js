@@ -4,23 +4,30 @@ const arrowRight = document.querySelector('.fa-chevron-right');
 const allImg = document.querySelectorAll('img');
 const allIcons = document.querySelectorAll('.fa-circle');
 
-arrowRight.addEventListener('click', function () {
+function handleArrowRight() {
+  clearInterval(interval);
+
   if (index < allImg.length - 1) {
     index++;
   } else {
     index = 0;
   }
-
   renderImg();
-});
+  setInterval(handleInterval, 3000);
+}
+
+arrowRight.addEventListener('click', handleArrowRight);
 
 arrowLeft.addEventListener('click', function () {
+  clearInterval(interval);
+
   if (index > 0) {
     index--;
   } else {
     index = allImg.length - 1;
   }
   renderImg();
+  setInterval(handleInterval, 3000);
 });
 
 function renderImg() {
@@ -39,7 +46,19 @@ function renderImg() {
 
 for (let i = 0; i < allIcons.length; i++) {
   allIcons[i].addEventListener('click', function (e) {
+    clearInterval(interval);
     index = i;
     renderImg();
+    setInterval(handleInterval, 3000);
   });
 }
+
+function handleInterval() {
+  if (index < allImg.length - 1) {
+    index++;
+  } else {
+    index = 0;
+  }
+  renderImg();
+}
+const interval = setInterval(handleInterval, 3000);
