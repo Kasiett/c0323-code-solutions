@@ -36,3 +36,10 @@ function renderImg() {
     }
   }
 }
+
+for (let i = 0; i < allIcons.length; i++) {
+  allIcons[i].addEventListener('click', function (e) {
+    index = i;
+    renderImg();
+  });
+}
