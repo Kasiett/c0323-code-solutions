@@ -1,0 +1,255 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(126 126 126);
+}
+
+.logo-blue {
+  margin-top: 20px;
+}
+
+div > img {
+  width: 160px;
+}
+
+div > hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nav > li {
+  display: inline;
+  margin: 20px;
+  font-family: Avenir, sans-serif;
+}
+
+section > button {
+  padding: 15px 40px;
+  background-color: #1e385c;
+  color: white;
+  border-radius: 3px;
+  border: transparent;
+  margin-top: 10px;
+  font-size: 17px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 85px;
+}
+
+ul > li > button {
+  padding: 10px 20px;
+  background-color: #2a4364;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+}
+
+div.button > button {
+  padding: 15px 40px;
+  font-size: 17px;
+  background-color: #2a4364;
+  color: white;
+  border-radius: 3px;
+  border: transparent;
+  margin-top: 10px;
+}
+
+section > button:hover {
+  background-color: #052a5a;
+  cursor: pointer;
+}
+
+ul > li > button:hover {
+  background-color: #052a5a;
+  cursor: pointer;
+}
+
+.section {
+  margin: 90px 150px;
+  background-image: url("images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  color: white;
+  position: relative;
+}
+
+section {
+  padding: 50px 10px 50px 80px;
+  width: 50%;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400px;
+  letter-spacing: 1px;
+  position: absolute;
+  width: 50%;
+  z-index: 1;
+}
+
+section > p {
+  position: absolute;
+  width: 50%;
+  top: 180px;
+  font-family: Avenir, sans-serif;
+  line-height: 1.7em;
+  z-index: 1;
+}
+
+main {
+  background-color: #fafafa;
+  margin: 10px 100px;
+  height: 75vh;
+  text-align: center;
+  padding: 50px;
+  color: rgb(126 126 126);
+  border-bottom: 1px solid rgb(239 239 239);
+}
+
+.columns {
+  display: flex;
+  flex-basis: calc(100%/2);
+  justify-content: center;
+  line-height: 1.5em;
+}
+
+.col-right {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.col-left {
+  margin-top: 50px;
+  margin-right: 120px;
+}
+
+.main-title,
+div.learn-more > h2 {
+  line-height: 2em;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400px;
+}
+
+.main-subtitle,
+div.learn-more > p {
+  line-height: 1.5em;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+.main-subtitle,
+.col-left,
+.col-right,
+div.learn-more > p,
+.ul-footer,
+.footer-text-cont,
+.footer {
+  font-family: Avenir, sans-serif;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(126 126 126);
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+div.learn-more > h2 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+div.learn-more > p {
+  margin-top: 0;
+}
+
+.button {
+  margin-top: 23px;
+}
+
+div.button > button:hover {
+  background-color: #052a5a;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #515351;
+  margin: 0 100px;
+  height: 60vh;
+  padding: 50px;
+  color: white;
+}
+
+.col1-2-wrapper {
+  display: flex;
+}
+
+div.footer > span > a {
+  color: rgb(126 126 126);
+  margin: 70px 0 100px 125px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.ul-footer,
+ul.ul-footer > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-col {
+  display: flex;
+  flex-basis: calc(100%/3);
+  justify-content: space-around;
+}
+
+.first-li {
+  text-transform: uppercase;
+}
+
+ul.ul-footer > li {
+  line-height: 2.5em;
+  margin: 0 40px;
+}
+
+.footer-text-cont {
+  margin-top: 50px;
+  line-height: 7px;
+  font-size: small;
+}
+
+.white-logo {
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  margin: 0 10px 0 100px;
+  padding: 40px 45px 30px;
+}
+
+.footer,
+div.footer > span {
+  background-color: #fafafa;
+  margin-top: 0;
+}
